@@ -1,7 +1,10 @@
 fn main() {
-    let food = ["banana", "bread", "fish"];
+    let needle = 42;
+    let haystack = [1, 1, 2, 4, 42, 423, 500];
 
-    for f in food.iter() {
-        println!("I like {}", f);
+    for item in haystack.iter() {
+        if item == &needle {
+            println!("Found ya: {}", item);
+        }
     }
 }
