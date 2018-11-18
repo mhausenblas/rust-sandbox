@@ -4,4 +4,6 @@ version = "0.1.0"
 authors = ["Michael Hausenblas <michael.hausenblas@gmail.com>"]
 description = "just a test, nothing to see here"
 license-file = "LICENSE"
+
 [dependencies]
+reqwest = "*"
